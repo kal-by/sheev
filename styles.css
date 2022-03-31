@@ -2,10 +2,28 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  /* padding: 1px; */
+}
+
+body {
+  background: url('sheev.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #sheev {
   font-size: 100px;
+  color: white;
+  text-align: center;
+  height: 100%;
+  /* padding: 1em; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;

@@ -1,5 +1,8 @@
 const id = 'sheev'
-const advice = ['DO IT', 'Did You Ever Hear The Tragedy Of Darth Plagueis The Wise?']
+const advice = [
+  'DO IT',
+  'Did You Ever Hear The Tragedy Of Darth Plagueis The Wise?'
+]
 
 const onClick = () => {
   const current = document.getElementById(id).innerHTML
@@ -11,3 +14,4 @@ const onClick = () => {
 }
 
 document.body.addEventListener('click', onClick, true)
+window.addEventListener('load', onClick)
