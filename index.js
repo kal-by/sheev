@@ -5,13 +5,8 @@ const advice = [
 ]
 
 const onClick = () => {
-  const current = document.getElementById(id).innerHTML
-  let next = advice[Math.floor(Math.random() * advice.length)]
-  while (current === next) {
-    next = advice[Math.floor(Math.random() * advice.length)]
-  }
-  document.getElementById(id).innerHTML = next
+  document.getElementById(id).innerHTML = advice[Math.floor(Math.random() * advice.length)]
 }
 
-document.body.addEventListener('click', onClick, true)
 window.addEventListener('load', onClick)
+document.body.addEventListener('click', onClick, true)
