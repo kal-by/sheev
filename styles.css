@@ -3,23 +3,21 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  /* padding: 1px; */
 }
 
 body {
-  background: url('sheev.png') no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('sheev1.png') no-repeat center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 #sheev {
-  font-size: 100px;
+  font-size: clamp(100%, 1rem + 10vw, 100px);
   color: white;
   text-align: center;
   height: 100%;
-  /* padding: 1em; */
   display: flex;
   justify-content: center;
   align-content: center;
